@@ -1,6 +1,13 @@
-﻿namespace ReStore.Data
+﻿using Microsoft.EntityFrameworkCore;
+using ReStore.Entities;
+
+namespace ReStore.Data
 {
-    public class StoreContext
+    public class StoreContext : DbContext
     {
+        public StoreContext(DbContextOptions options) : base(options)
+        {
+        }
+        public DbSet<Product> Products { get; set; }
     }
 }
