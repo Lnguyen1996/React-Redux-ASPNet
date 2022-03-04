@@ -1255,31 +1255,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lam.nguyen\\.nuget\\packages\\": {},
+    "C:\\Users\\onela\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Research\\React_Redux_DotNet\\API\\ReStore\\ReStore.csproj",
+      "projectUniqueName": "D:\\React-Redux-ASPNet\\ReStore\\API\\ReStore\\ReStore.csproj",
       "projectName": "ReStore",
-      "projectPath": "C:\\Research\\React_Redux_DotNet\\API\\ReStore\\ReStore.csproj",
-      "packagesPath": "C:\\Users\\lam.nguyen\\.nuget\\packages\\",
-      "outputPath": "C:\\Research\\React_Redux_DotNet\\API\\ReStore\\obj\\",
+      "projectPath": "D:\\React-Redux-ASPNet\\ReStore\\API\\ReStore\\ReStore.csproj",
+      "packagesPath": "C:\\Users\\onela\\.nuget\\packages\\",
+      "outputPath": "D:\\React-Redux-ASPNet\\ReStore\\API\\ReStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\lam.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\onela\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.mdpweb.net/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -1330,7 +1330,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200-preview.22055.15\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
