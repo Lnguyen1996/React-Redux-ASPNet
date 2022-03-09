@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\React-Redux-ASPNet\\ReStore\\API\\ReStore\\ReStore.csproj": {}
+    "/Users/lamnguyen/Desktop/React-Redux-ASPNet/API/ReStore/ReStore.csproj": {}
   },
   "projects": {
-    "D:\\React-Redux-ASPNet\\ReStore\\API\\ReStore\\ReStore.csproj": {
+    "/Users/lamnguyen/Desktop/React-Redux-ASPNet/API/ReStore/ReStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\React-Redux-ASPNet\\ReStore\\API\\ReStore\\ReStore.csproj",
+        "projectUniqueName": "/Users/lamnguyen/Desktop/React-Redux-ASPNet/API/ReStore/ReStore.csproj",
         "projectName": "ReStore",
-        "projectPath": "D:\\React-Redux-ASPNet\\ReStore\\API\\ReStore\\ReStore.csproj",
-        "packagesPath": "C:\\Users\\onela\\.nuget\\packages\\",
-        "outputPath": "D:\\React-Redux-ASPNet\\ReStore\\API\\ReStore\\obj\\",
+        "projectPath": "/Users/lamnguyen/Desktop/React-Redux-ASPNet/API/ReStore/ReStore.csproj",
+        "packagesPath": "/Users/lamnguyen/.nuget/packages/",
+        "outputPath": "/Users/lamnguyen/Desktop/React-Redux-ASPNet/API/ReStore/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\onela\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lamnguyen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }

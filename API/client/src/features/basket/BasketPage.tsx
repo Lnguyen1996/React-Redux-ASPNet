@@ -13,14 +13,11 @@ import {
   TableRow,
   Typography,
 } from "@mui/material";
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import agent from "../../app/api/agent";
 import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
 import {
   addBasketItemAsync,
   removeBasketItemAsync,
-  setBasket,
 } from "./basketSlice";
 import BasketSummary from "./BasketSummary";
 
@@ -67,12 +64,10 @@ const BasketPage = () => {
                     color="error"
                     onClick={() =>
                       dispatch(
-                        removeBasketItemAsync({ productId: item.productId! })
+                        removeBasketItemAsync({ productId: item.productId!,quantity:1,name:'rem' })
                       )
                     }
-                    loading={status.includes(
-                      "pendingRemoveItem" + item.productId
-                    )}
+                    loading={status === "pendingRemoveItem" + item.productId +'rem'}
                   >
                     <Remove />
                   </LoadingButton>
@@ -84,7 +79,7 @@ const BasketPage = () => {
                         addBasketItemAsync({ productId: item.productId! })
                       )
                     }
-                    loading={status.includes("pendingAddItem" + item.productId)}
+                    loading={status === "pendingAddItem" + item.productId}
                   >
                     <Add />
                   </LoadingButton>
@@ -100,12 +95,11 @@ const BasketPage = () => {
                         removeBasketItemAsync({
                           productId: item.productId,
                           quantity: item.quantity,
+                          name:'del'
                         })
                       )
                     }
-                    loading={status.includes(
-                      "pendingRemoveItem" + item.productId
-                    )}
+                    loading={status === "pendingRemoveItem" + item.productId+ 'del'}
                   >
                     <Delete />
                   </LoadingButton>

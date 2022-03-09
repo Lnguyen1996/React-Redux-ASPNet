@@ -1,9 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\onela\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\onela\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/Users/lamnguyen/.dotnet/store/|arch|/|tfm|",
+      "/Users/lamnguyen/.nuget/packages"
     ]
   }
 }
